@@ -278,8 +278,8 @@ function BoardHard() {
       data[i]=''
     }
     setData([...data])
-    setWinner('')
     setHistory([...history,winner])
+    setWinner('')
   }
   return (
     <div>
