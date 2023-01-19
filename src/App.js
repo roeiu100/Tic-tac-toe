@@ -21,7 +21,7 @@ function App() {
     <div className="App">
        <div className='nav'>
             <NavLink className='navlink' to="/" onClick={()=>setWinner('')}>Home Page</NavLink>
-            <NavLink className='navlink' to="/History" onClick= {()=>DoHistory()} >History</NavLink>
+            {/* <NavLink className='navlink' to="/History" onClick= {()=>DoHistory()} >History</NavLink> */}
             </div>
             <div className='title'>
                 <span>{winner}</span>               
