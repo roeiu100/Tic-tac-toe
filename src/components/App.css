@@ -1,0 +1,83 @@
+.App {
+    text-align: center;
+    background-image: url('https://www.ft.com/__origami/service/image/v2/images/raw/https://d1e00ek4ebabms.cloudfront.net/production/3328878e-9f85-4874-839f-3a57134e6808.jpg?source=next&fit=scale-down&quality=highest&width=1440');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:120vh ;
+  }
+  td,tr {
+  border: 3px solid black;
+  height: 150px;
+  width: 150px;
+  font-size: 80px;
+  cursor: pointer;
+  opacity: 0.7;
+  background-color: azure;
+  }
+  td:hover{
+   background-color:cornflowerblue
+  }
+   table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+  }
+  .history-back  table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+  }
+  .history-back td,tr{
+    border: 2px solid black;
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    cursor:default;
+    opacity: 0.9;
+    background-color:whitesmoke;
+  }
+  .button {
+    border-radius: 10px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: black; 
+    font-family:cursive;
+    border: 2px solid black;
+    width: max-content;
+    font-size: 25px;
+  }
+  .button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .nav{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    opacity: 0.6;
+  
+   }
+   .navlink{
+    font-size: 40px;
+    font-weight: 600;
+    color: whitesmoke;
+    text-decoration: none;
+   }
+   .navlink:hover{
+    color: greenyellow;
+   }
+   .title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: cornflowerblue;
+    font-size: 30px
+   }
+   
